@@ -1,0 +1,359 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "question": "Which factor should a bank consider before sharing information about a customer with its broker-dealer affiliate in the case of an investigation?",
+      "options": [
+        {
+          "id": 1,
+          "label": "Whether the broker-dealer affiliate can rely on the due diligence done by the bank",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "label": "Whether there is a mutual legal assistance treaty in place between the two institutions",
+          "isCorrect": true
+        },
+        {
+          "id": 3,
+          "label": "Whether privacy and data protection rules permit the bank to share the information with the affiliate",
+          "isCorrect": false
+        },
+        {
+          "id": 4,
+          "label": "Whether both institutions have an account or are in the process of opening an account for the customer",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "The Answer is - Whether there is a mutual legal assistance treaty in place between the two institutions",
+      "isMultiChoice": false
+    },
+    {
+      "id": 2,
+      "question": "What does the Financial Action Task Force 40 Recommendations address on transparency of beneficial ownership?",
+      "options": [
+        { "id": 1, "label": "Gatekeepers", "isCorrect": false },
+        { "id": 2, "label": "Correspondent banking", "isCorrect": false },
+        { "id": 3, "label": "Payable through accounts", "isCorrect": false },
+        {
+          "id": 4,
+          "label": "Legal persons and arrangements",
+          "isCorrect": true
+        }
+      ],
+      "explanation": "The Answer is - Legal persons and arrangements.",
+      "isMultiChoice": false
+    },
+    {
+      "id": 3,
+      "question": "A compliance officer identifies a potentially significant risk in a popular financial product. Further investigation reveals there is no mitigating control. Which course of action should the compliance officer take?",
+      "options": [
+        {
+          "id": 1,
+          "label": "Launch a long-term project to remediate the control deficiency",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "label": "Note the risk and address it during the next round of policy and procedure review",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "label": "Immediately cease providing the product and only offer it after effective permanent mitigation is implemented",
+          "isCorrect": false
+        },
+        {
+          "id": 4,
+          "label": "Immediately cease providing the product and only offer it after effective permanent mitigation is implemented",
+          "isCorrect": true
+        }
+      ],
+      "explanation": "The Answer is - Immediately cease providing the product and only offer it after effective permanent mitigation is implemented.",
+      "isMultiChoice": false
+    },
+    {
+      "id": 4,
+      "question": "Which action should countries take related to the financing of terrorist acts in accordance with the Financial Action Task Force 40 Recommendations?",
+      "options": [
+        { "id": 1, "label": "Oppose", "isCorrect": false },
+        { "id": 2, "label": "Sanction", "isCorrect": false },
+        { "id": 3, "label": "Prosecute", "isCorrect": false },
+        { "id": 4, "label": "Criminalize", "isCorrect": true }
+      ],
+      "explanation": "The Answer is - Criminalize.",
+      "isMultiChoice": false
+    },
+    {
+      "id": 5,
+      "question": "A client is a wholesale auto business that operates as a used car lot. The client regularly ships vehicles internationally. In a four-month period, the client received wires totaling $ 1,250,000 from a dealer in Benin in West Africa. All wires originated from Benin and were in increments of $50,000. Account debits made to the account were payable to various transport companies. All incoming checks reference various vehicles purchased. Dock shipping receipts produced by the client to support account activity identify the vehicles but cannot easily be tied to the wires receives. What is the suspicious behavior?",
+      "options": [
+        {
+          "id": 1,
+          "label": "The dock shipping receipts match the vehicles",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "label": "Vehicles are regularly shipped internationally",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "label": "Wires received are in large, even dollar amounts",
+          "isCorrect": true
+        },
+        {
+          "id": 4,
+          "label": "Account debits are payable to transport companies",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "The Answer is - Wires received are in large, even dollar amounts .",
+      "isMultiChoice": false
+    },
+    {
+      "id": 6,
+      "question": "Which method is used to launder money via wire remittances sent through a bureau de change or money services business? A. A customer in country A makes a weekly small wire transfer to the bank account of an individual in country B.",
+      "options": [
+        {
+          "id": 1,
+          "label": "A customer in country A makes frequent wire transfers to a single customer in country B that are slightly under the legal reporting threshold.",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "label": "A large number of wire transfers are sent from a large number of senders in country A to a large number of recipients in country B during the period of December 1 to December 15.",
+          "isCorrect": true
+        },
+        {
+          "id": 3,
+          "label": "A customer in country A receives four small wire transfers from four different individuals located in country B on December 21. The aggregate of the wire transfers falls below the legal reporting threshold.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "The Answer is - A large number of wire transfers are sent from a large number of senders in country A to a large number of recipients in country B during the period of December 1 to December 15.",
+      "isMultiChoice": false
+    },
+    {
+      "id": 7,
+      "question": "A compliance officer was recently reviewing transactional data for an international charity and found transactions that present a higher risk. Which reason is cause for terminating the banking relationship?",
+      "options": [
+        {
+          "id": 1,
+          "label": "The charity has had a high a high turnover rate of official positions",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "label": "The charity has several incoming international funds transfers",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "label": "The flow of funds both in and out are complex and hard to trace",
+          "isCorrect": true
+        },
+        {
+          "id": 4,
+          "label": "The charity is headquartered in a country on the Office of Foreign Assets Control list",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "The Answer is - The flow of funds both in and out are complex and hard to trace.",
+      "isMultiChoice": false
+    },
+    {
+      "id": 8,
+      "question": "During a law enforcement investigative interview regarding potential money laundering, the suspect starts making assertions and statements that the investigator believes are false. How should the investigator respond?",
+      "options": [
+        {
+          "id": 1,
+          "label": "Inform the suspect that deception is obvious and continue the interview",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "label": "Advise the suspect that the interview will be terminated if there is suspicion of deception",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "label": "Direct the interview in another direction until there is better rapport before returning back to the troubling questions",
+          "isCorrect": false
+        },
+        {
+          "id": 4,
+          "label": "Ask questions of a material nature about the suspected false statements without revealing the suspected deception",
+          "isCorrect": true
+        }
+      ],
+      "explanation": "The Answer is - Ask questions of a material nature about the suspected false statements without revealing the suspected deception.",
+      "isMultiChoice": false
+    },
+    {
+      "id": 9,
+      "question": "A bank receives an anonymous tip from an employee about another employee through its confidential hotline. Which activity warrants further review?",
+      "options": [
+        {
+          "id": 1,
+          "label": "A mortgage officer works with home loan applicants to resolve adverse credit issues",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "label": "An employee in bookkeeping accepts funds transfer requests from customers via telephone",
+          "isCorrect": true
+        },
+        {
+          "id": 3,
+          "label": "An employee in accounting works with customers to help understand how to reduce service charges",
+          "isCorrect": false
+        },
+        {
+          "id": 4,
+          "label": "A teller distributes bank brochures to customers who regularly conduct cash transactions below reporting limits",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "The Answer is - An employee in bookkeeping accepts funds transfer requests from customers via telephone.",
+      "isMultiChoice": false
+    },
+    {
+      "id": 10,
+      "question": "The anti-money laundering compliance officer for a small money transmitter has several agent locations in the same geographic area in the United States. The customers are immigrants from Country A and the majority of the funds are remitted to Country A. In a meeting with one of the agents, it is recently discovered that two new customers have been coming in three times a week and sending funds to the same recipient in Country B. Each cash transaction always totals exactly $8,000. What should alert the agent to possible money laundering activity by the two customers?",
+      "options": [
+        {
+          "id": 1,
+          "label": "They remit funds to the same person",
+          "isCorrect": true
+        },
+        {
+          "id": 2,
+          "label": "They have been coming in three times a week",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "label": "It is unusual for customers to remit to Country B",
+          "isCorrect": false
+        },
+        {
+          "id": 4,
+          "label": "Each of their transactions is just below the cash reporting threshold",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "The Answer is - They remit funds to the same person.",
+      "isMultiChoice": false
+    },
+    {
+      "id": 11,
+      "question": "A recent anti-money laundering audit revealed several regulatory reporting violations and lapses with the organization’s anti-money laundering policy. As a result, the compliance officer has created a follow-up matrix to document progress in correcting the identified deficiencies. To whom should the compliance officer provide regular updates of corrective action to help ensure the appropriate oversight?",
+      "options": [
+        { "id": 1, "label": "Audit management", "isCorrect": false },
+        { "id": 2, "label": "Human Resources", "isCorrect": false },
+        { "id": 3, "label": "Business line managers", "isCorrect": false },
+        { "id": 4, "label": "Designated board committee", "isCorrect": true }
+      ],
+      "explanation": "The Answer is - Designated board committee.",
+      "isMultiChoice": false
+    },
+    {
+      "id": 12,
+      "question": "A compliance officer provides an overview of the bank’s anti-money laundering program to a group of new tellers during employee orientation. Which training element should be delivered to this audience?",
+      "options": [
+        {
+          "id": 1,
+          "label": "Results of recent risk assessments",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "label": "Large cash transaction reporting procedures",
+          "isCorrect": true
+        },
+        {
+          "id": 3,
+          "label": "The financial institution's surprise cash audit policy",
+          "isCorrect": false
+        },
+        {
+          "id": 4,
+          "label": "Past check fraud losses incurred by the financial institution",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "The Answer is - Large cash transaction reporting procedures.",
+      "isMultiChoice": false
+    },
+    {
+      "id": 13,
+      "question": "Who has the ultimate responsibility within a bank for ensuring that the bank has a comprehensive and effective Bank Secrecy Act / anti-money laundering (BSA/AML) program and oversight framework that is reasonably designed to ensure compliance with applicable regulations?",
+      "options": [
+        { "id": 1, "label": "Senior management", "isCorrect": false },
+        { "id": 2, "label": "Board of directors", "isCorrect": true },
+        { "id": 3, "label": "Business line managers", "isCorrect": false },
+        { "id": 4, "label": "BSA/AML compliance officer", "isCorrect": false }
+      ],
+      "explanation": "The Answer is - Board of directors.",
+      "isMultiChoice": false
+    },
+    {
+      "id": 14,
+      "question": "What is the largest country in the world by land area?",
+      "options": [
+        {
+          "id": 1,
+          "label": "Provide all information requested to support the investigation",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "label": "Provide all information requested to support the investigation",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "label": "Ensure the information is necessary to the investigation before responding to the request",
+          "isCorrect": true
+        },
+        {
+          "id": 4,
+          "label": "Contact the customer informing the person of the investigation to ensure the bank provides information",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "The Answer is - Ensure the information is necessary to the investigation before responding to the request.",
+      "isMultiChoice": false
+    },
+    {
+      "id": 15,
+      "question": "The compliance officer for a bank is reviewing on-boarding documents for a new business account for a domestic corporation. The officer is unable to verify the identity of the beneficial owners of the company. Only information on the nominee owners was provided, and none of the listed addresses are local. The purpose of the business and future expected activity were disclosed to include cash letters, money orders and international remittance transfers. Which red flag identifies a heightened money laundering risk?",
+      "options": [
+        {
+          "id": 1,
+          "label": "Expected activity was advised to include cash letter and money orders",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "label": "The nature and purpose of the business include international remittance transfers",
+          "isCorrect": true
+        },
+        {
+          "id": 3,
+          "label": "The names provided at account opening are identified as the corporation's representative nominees",
+          "isCorrect": false
+        },
+        {
+          "id": 4,
+          "label": "Account signer's government issued identification lists addresses outside of where the branch account was opened",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "The Answer is - The nature and purpose of the business include international remittance transfers.",
+      "isMultiChoice": false
+    }
+  ]
+}
