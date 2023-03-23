@@ -15,7 +15,7 @@ export default function Results({
     (state: RootState) => state.quiz.questions.length
   );
   const total =
-    questionLength && typeof questionLength == "number" && questionLength * 10;
+    questionLength && typeof questionLength == "number" && questionLength;
   return (
     <div className="container mx-auto mt-5 pt-5">
       <h2 className="lead h5">Quiz Results</h2>

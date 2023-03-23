@@ -1,5 +1,7 @@
 import React from "react";
 import { Button } from "react-bootstrap";
+import { useSelector } from "react-redux";
+import { RootState } from "../store";
 import Explanation from "./Explanation";
 
 export interface QuestionsProps {
@@ -10,6 +12,7 @@ export interface QuestionsProps {
   };
   handleOptionClick: (option: QuizOption) => void;
   handleNextQuestionButtonClick: () => void;
+  handlePrevQuestionButtonClick: () => void;
 }
 
 export default function Questions({
@@ -18,8 +21,10 @@ export default function Questions({
   userAnswers,
   handleOptionClick,
   handleNextQuestionButtonClick,
+  handlePrevQuestionButtonClick,
 }: QuestionsProps): React.ReactElement {
   const { question, options, explanation, id } = currentQuestion;
+  const active = useSelector((state: RootState) => state.quiz.selectedOption);
   return (
     <div className="container mx-auto mt-5 pt-5">
       <h2 className="lead h5">
@@ -34,7 +39,7 @@ export default function Questions({
               disabled={isQuizOver}
               variant="outline-success"
               size="lg"
-              className="m-2 p-2"
+              className={`m-2 p-2 ${active === option.id ? "active" : ""}`}
             >
               {option.label}
             </Button>
@@ -44,6 +49,14 @@ export default function Questions({
           <Explanation explanation={explanation} />
         )}
 
+        <Button
+          variant="success"
+          className="float-start"
+          onClick={() => handlePrevQuestionButtonClick()}
+          disabled={id === 1 || isQuizOver}
+        >
+          Prev Question
+        </Button>
         <Button
           variant="success"
           className="float-end"

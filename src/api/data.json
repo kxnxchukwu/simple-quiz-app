@@ -65,11 +65,11 @@
         },
         {
           "id": 4,
-          "label": "Immediately cease providing the product and only offer it after effective permanent mitigation is implemented",
+          "label": "Implement a temporary mitigation that enables effective management of the risk until a permanent plan can be developed",
           "isCorrect": true
         }
       ],
-      "explanation": "The Answer is - Immediately cease providing the product and only offer it after effective permanent mitigation is implemented.",
+      "explanation": "The Answer is - Implement a temporary mitigation that enables effective management of the risk until a permanent plan can be developed.",
       "isMultiChoice": false
     },
     {
@@ -353,6 +353,142 @@
         }
       ],
       "explanation": "The Answer is - The nature and purpose of the business include international remittance transfers.",
+      "isMultiChoice": false
+    },
+    {
+      "id": 16,
+      "question": "Which method do terrorist financiers use to move funds without leaving an audit trail?",
+      "options": [
+        {
+          "id": 1,
+          "label": "Extortion",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "label": "Cash couriers",
+          "isCorrect": true
+        },
+        {
+          "id": 3,
+          "label": "Casa de cambio",
+          "isCorrect": false
+        },
+        {
+          "id": 4,
+          "label": "Casa de cambio",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "The Answer is - Cash couriers.",
+      "isMultiChoice": false
+    },
+    {
+      "id": 17,
+      "question": "A U.K. real estate agent has three foreign clients interested in purchasing an apartment building, valued at ֲ£30 million, in the outskirts of London as an investment property. The clients are not willing to have their names provided to the bank. The clients want the purchase to be made in the names of three private companies for privacy reasons. The plan is to wire the funds into an account held in the name of another private company at a bank in London. Which red flag should stop the agent from discussing this potential purchase further?",
+      "options": [
+        { "id": 1, "label": "The clients are foreign", "isCorrect": false },
+        {
+          "id": 2,
+          "label": "The clients have the funds necessary to fund a ֲ£30 million purchase",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "label": "The clients are not willing to have their names provided to the bank",
+          "isCorrect": true
+        },
+        {
+          "id": 4,
+          "label": "The clients want the purchase to be made in the names of the private companies",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "The Answer is - The clients are not willing to have their names provided to the bank.",
+      "isMultiChoice": false
+    },
+    {
+      "id": 18,
+      "question": "Law enforcement submitted a request to a bank for information regarding one of its customers. How should the bank respond according to Financial Action Task Force Guidance?",
+      "options": [
+        {
+          "id": 1,
+          "label": "Ensure that the request will not violate any local privacy regulations or legislation",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "label": "Ensure that the request will not violate any local privacy regulations or legislation",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "label": "Ensure the information is necessary to the investigation before responding to the request",
+          "isCorrect": true
+        },
+        {
+          "id": 4,
+          "label": "Contact the customer informing the person of the investigation to ensure the bank provides correct information",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "The Answer is - Ensure the information is necessary to the investigation before responding to the request.",
+      "isMultiChoice": false
+    },
+    {
+      "id": 19,
+      "question": "How should a financial institution respond to a verbal request from a law enforcement agency to keep an account open to assist in an investigation?",
+      "options": [
+        {
+          "id": 1,
+          "label": "Agree to keep the account open",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "label": "Request a subpoena to maintain the account",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "label": "Request a letter on the agency's letterhead",
+          "isCorrect": true
+        },
+        {
+          "id": 4,
+          "label": "Request a search warrant from the local court",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "The Answer is - Request a letter on the agency's letterhead.",
+      "isMultiChoice": false
+    },
+    {
+      "id": 20,
+      "question": "A bank is preparing for its anti-money laundering independent review, which is performed every two years under the direction of the compliance officer. The bank's corporate audit department will conduct the review. The compliance officer will review the final report before it is released to the Board of Directors. What is the issue with this situation?",
+      "options": [
+        {
+          "id": 1,
+          "label": "The review must be performed by a group outside of the bank",
+          "isCorrect": true
+        },
+        {
+          "id": 2,
+          "label": "The review must be performed by a group outside of the bank",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "label": "The final report must be presented directly to the board of directors",
+          "isCorrect": false
+        },
+        {
+          "id": 4,
+          "label": "There is a conflict of interest with the management of the review process",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "The Answer is - The review must be performed by a group outside of the bank.",
       "isMultiChoice": false
     }
   ]

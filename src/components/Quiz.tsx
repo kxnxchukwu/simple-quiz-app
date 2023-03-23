@@ -6,6 +6,7 @@ import {
   nextQuestion,
   restartQuiz,
   endQuiz,
+  prevQuestion,
 } from "../features/quiz-slice";
 import Results from "./Results";
 import Questions from "./Questions";
@@ -32,6 +33,10 @@ export const Quiz = (): React.ReactElement => {
     }
   };
 
+  const handlePrevQuestionButtonClick = () => {
+    dispatch(prevQuestion());
+  };
+
   const handleRestartQuiz = () => {
     dispatch(restartQuiz());
   };
@@ -46,6 +51,7 @@ export const Quiz = (): React.ReactElement => {
       userAnswers={userAnswers}
       isQuizOver={isQuizOver}
       handleNextQuestionButtonClick={handleNextQuestionButtonClick}
+      handlePrevQuestionButtonClick={handlePrevQuestionButtonClick}
       handleOptionClick={handleOptionClick}
     />
   );
