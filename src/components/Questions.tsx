@@ -26,7 +26,7 @@ export default function Questions({
   const { question, options, explanation, id } = currentQuestion;
   const active = useSelector((state: RootState) => state.quiz.selectedOption);
   return (
-    <div className="container mx-auto mt-5 pt-5">
+    <div className="container-fluid mx-auto mt-2 pt-2">
       <h2 className="lead h5">
         {`${id}. `}
         {question}
@@ -49,22 +49,24 @@ export default function Questions({
           <Explanation explanation={explanation} />
         )}
 
-        <Button
-          variant="success"
-          className="float-start"
-          onClick={() => handlePrevQuestionButtonClick()}
-          disabled={id === 1 || isQuizOver}
-        >
-          Prev Question
-        </Button>
-        <Button
-          variant="success"
-          className="float-end"
-          onClick={() => handleNextQuestionButtonClick()}
-          disabled={isQuizOver}
-        >
-          Next Question
-        </Button>
+        <div className="mb-4 p-4">
+          <Button
+            variant="success"
+            className="float-start"
+            onClick={() => handlePrevQuestionButtonClick()}
+            disabled={id === 1 || isQuizOver}
+          >
+            Prev Question
+          </Button>
+          <Button
+            variant="success"
+            className="float-end"
+            onClick={() => handleNextQuestionButtonClick()}
+            disabled={isQuizOver}
+          >
+            Next Question
+          </Button>
+        </div>
       </>
     </div>
   );

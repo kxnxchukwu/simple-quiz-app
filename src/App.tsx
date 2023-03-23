@@ -5,7 +5,7 @@ import NavBar from "./components/NavBar";
 
 function App() {
   return (
-    <div className="App">
+    <div className="m-1 p-1">
       <NavBar />
       <Quiz />
     </div>
