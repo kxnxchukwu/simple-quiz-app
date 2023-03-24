@@ -413,7 +413,7 @@
       "options": [
         {
           "id": 1,
-          "label": "Ensure that the request will not violate any local privacy regulations or legislation",
+          "label": "Provide all information requested to support the investigation",
           "isCorrect": false
         },
         {
@@ -469,7 +469,7 @@
       "options": [
         {
           "id": 1,
-          "label": "The review must be performed by a group outside of the bank",
+          "label": "Independent reviews must be performed annually",
           "isCorrect": true
         },
         {
@@ -488,7 +488,147 @@
           "isCorrect": false
         }
       ],
-      "explanation": "The Answer is - The review must be performed by a group outside of the bank.",
+      "explanation": "The Answer is - Independent reviews must be performed annually.",
+      "isMultiChoice": false
+    },
+    {
+      "id": 21,
+      "question": "A foreign politically exposed person (PEP) requests to add a beneficiary to a life insurance policy. How should the request be processed to mitigate risk?",
+      "options": [
+        {
+          "id": 1,
+          "label": "Perform due diligence on the beneficiary",
+          "isCorrect": true
+        },
+        {
+          "id": 2,
+          "label": "Determine the source of wealth and source of funds",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "label": "Decline the request if the beneficiary is a foreign PEP",
+          "isCorrect": false
+        },
+        {
+          "id": 4,
+          "label": "Decline the request to add a beneficiary due to increased risk",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "The Answer is - Perform due diligence on the beneficiary.",
+      "isMultiChoice": false
+    },
+    {
+      "id": 22,
+      "question": "What is true regarding disclosure to a law enforcement agency by a financial institution of the supporting documentation for a suspicious transaction report?",
+      "options": [
+        {
+          "id": 1,
+          "label": "Documentation must be provided as quickly as possible using email",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "label": "The financial institution may notify the account holder of the request",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "label": "Confirm that the request originated from a representative of the law enforcement agency",
+          "isCorrect": true
+        },
+        {
+          "id": 4,
+          "label": "A copy of all the documentation released must also be provided to the account holder's attorney",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "The Answer is - Confirm that the request originated from a representative of the law enforcement agency. Reference: https://www.sec.gov/about/offices/ocie/aml2007/fin-2007-g003.pdf",
+      "isMultiChoice": false
+    },
+    {
+      "id": 23,
+      "question": "What is a major economic consequence of money laundering through the use of front companies?",
+      "options": [
+        {
+          "id": 1,
+          "label": "Placing more emphasis on manufacturing",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "label": "Weakening of the legitimate private sector",
+          "isCorrect": true
+        },
+        {
+          "id": 3,
+          "label": "Creating a more competitive pricing environment",
+          "isCorrect": false
+        },
+        {
+          "id": 4,
+          "label": "Aligning management principles between criminal enterprises and legitimate businesses",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "The Answer is - Weakening of the legitimate private sector. Reference: http://people.exeter.ac.uk/watupman/undergrad/rtb/effects2.htm",
+      "isMultiChoice": false
+    },
+    {
+      "id": 24,
+      "question": "The branch manager calls the compliance officer and informs her that a law enforcement officer has just left the branch and was asking a lot of questions and left a business card. What should the compliance officer do?",
+      "options": [
+        {
+          "id": 1,
+          "label": "File a suspicious transaction report",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "label": "Follow up to verify that the officer received all necessary information",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "label": "Verify that the reported officer was an actual authorized representative",
+          "isCorrect": true
+        },
+        {
+          "id": 4,
+          "label": "Require the branch manager to write a detailed memo about the request",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "The Answer is - Verify that the reported officer was an actual authorized representative.",
+      "isMultiChoice": false
+    },
+    {
+      "id": 25,
+      "question": "What is a key objective of the Egmont Group?",
+      "options": [
+        {
+          "id": 1,
+          "label": "To find ways to promote the development of Financial Intelligence Units and the sharing of expertise.",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "label": "To safeguard the financial system from illicit use and combat money laundering and promote national security.",
+          "isCorrect": true
+        },
+        {
+          "id": 3,
+          "label": "To issue binding standards that establish consistently operated Financial Intelligence Units in member jurisdictions.",
+          "isCorrect": false
+        },
+        {
+          "id": 4,
+          "label": "To provide best practices for financial institutions on how to report suspicious activity to best share the information with law enforcement.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "The Answer is - To safeguard the financial system from illicit use and combat money laundering and promote national security. Reference: https://egmontgroup.org/en",
       "isMultiChoice": false
     }
   ]
