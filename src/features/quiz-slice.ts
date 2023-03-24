@@ -1,4 +1,4 @@
-import { createSlice, PayloadAction } from '@reduxjs/toolkit';
+import { createSlice, PayloadAction, current } from '@reduxjs/toolkit';
 import data from '../api/data.json'
 
 interface QuizState {
@@ -26,16 +26,17 @@ export const quizSlice = createSlice({
         setQuestions: (state, action: PayloadAction<QuizQuestion[]>) => {
             state.questions = action.payload;
         },
-        setUserAnswer: (state, action: PayloadAction<{ option: QuizOption, questionId: number; }>) => {
-            const { questionId, option } = action.payload;
+        setUserAnswer: (state, action: PayloadAction<{ option: QuizOption, questionId: number; index: number; }>) => {
+            const { questionId, option, index } = action.payload;
             const { id: optionId, isCorrect } = option
-            state.selectedOption = optionId
+            const currentQuestionState = current(state.questions)
+            state.selectedOption = index
             if (state.userAnswers[questionId]) {
-                /*if (state.questions[questionId].isMultiChoice) {
+                if (currentQuestionState[questionId].isMultiChoice) {
                     state.userAnswers[questionId] = [...state.userAnswers[questionId], optionId];
-                } else { */
-                state.userAnswers[questionId] = [optionId];
-                //}
+                } else {
+                    state.userAnswers[questionId] = [optionId];
+                }
             } else {
                 state.userAnswers[questionId] = [optionId];
             }
