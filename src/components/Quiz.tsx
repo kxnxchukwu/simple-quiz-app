@@ -21,8 +21,8 @@ export const Quiz = (): React.ReactElement => {
   const isQuizOver = useSelector((state: RootState) => state.quiz.isQuizOver);
   const currentQuestion = questions[currentQuestionIndex];
 
-  const handleOptionClick = (option: QuizOption) => {
-    dispatch(setUserAnswer({ questionId: currentQuestion.id, option }));
+  const handleOptionClick = (option: QuizOption, index: number) => {
+    dispatch(setUserAnswer({ questionId: currentQuestion.id, option, index }));
   };
 
   const handleNextQuestionButtonClick = () => {
