@@ -1,7 +1,8 @@
-import React from "react";
+import React, { useMemo } from "react";
 import { Button } from "react-bootstrap";
 import { useSelector } from "react-redux";
 import { RootState } from "../store";
+import { shuffleArray } from "../utils/shuffle";
 import Explanation from "./Explanation";
 
 export interface QuestionsProps {
@@ -10,7 +11,7 @@ export interface QuestionsProps {
   userAnswers: {
     [questionId: number]: number[];
   };
-  handleOptionClick: (option: QuizOption) => void;
+  handleOptionClick: (option: QuizOption, index: number) => void;
   handleNextQuestionButtonClick: () => void;
   handlePrevQuestionButtonClick: () => void;
 }
@@ -25,6 +26,7 @@ export default function Questions({
 }: QuestionsProps): React.ReactElement {
   const { question, options, explanation, id } = currentQuestion;
   const active = useSelector((state: RootState) => state.quiz.selectedOption);
+  const shuffledOptions = useMemo(() => shuffleArray(options), [options]);
   return (
     <div className="container-fluid mx-auto mt-2 pt-2">
       <h2 className="lead h5">
@@ -32,14 +34,14 @@ export default function Questions({
         {question}
       </h2>
       <>
-        {options.map((option, _index) => (
+        {shuffledOptions.map((option, index) => (
           <div className="d-grid gap-2" key={option.id}>
             <Button
-              onClick={() => handleOptionClick(option)}
+              onClick={() => handleOptionClick(option, index + 1)}
               disabled={isQuizOver}
               variant="outline-success"
               size="lg"
-              className={`m-2 p-2 ${active === option.id ? "active" : ""}`}
+              className={`m-2 p-2 ${active === index + 1 ? "active" : ""}`}
             >
               {option.label}
             </Button>
