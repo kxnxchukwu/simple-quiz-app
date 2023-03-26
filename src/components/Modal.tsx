@@ -9,7 +9,7 @@ import { RootState } from "../store";
 
 export default function JumpToQuestionModal(): ReactElement {
   const show = useSelector((state: RootState) => state.modal.show);
-  const [questionNumber, setQuestionNumber] = useState(0);
+  const [questionNumber, setQuestionNumber] = useState<number>(1);
   const dispatch = useDispatch();
 
   const handleClose = () => dispatch(showModal({ show: false }));
@@ -31,7 +31,6 @@ export default function JumpToQuestionModal(): ReactElement {
               <Form.Control
                 type="text"
                 value={questionNumber}
-                placeholder="5"
                 autoFocus
                 onChange={(event) =>
                   setQuestionNumber(Number(event.target.value))
