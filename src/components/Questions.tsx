@@ -39,9 +39,17 @@ export default function Questions({
             <Button
               onClick={() => handleOptionClick(option, index + 1)}
               disabled={isQuizOver}
-              variant="outline-success"
+              variant={`${
+                !option.isCorrect && active === index + 1
+                  ? "outline-danger"
+                  : "outline-success"
+              }`}
               size="lg"
-              className={`m-2 p-2 ${active === index + 1 ? "active" : ""}`}
+              className={`m-2 p-2 ${
+                active === index + 1 || (option.isCorrect && !!active)
+                  ? "active"
+                  : ""
+              }`}
             >
               {option.label}
             </Button>
