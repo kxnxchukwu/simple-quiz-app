@@ -29,7 +29,7 @@ export const quizSlice = createSlice({
         setUserAnswer: (state, action: PayloadAction<{ option: QuizOption, questionId: number; index: number; }>) => {
             const { questionId, option, index } = action.payload;
             const { id: optionId, isCorrect } = option
-            const currentQuestionState = current(state.questions)
+            //const currentQuestionState = current(state.questions)
             state.selectedOption = index
             if (state.userAnswers[questionId]) {
                 /* if (currentQuestionState[questionId].isMultiChoice) {

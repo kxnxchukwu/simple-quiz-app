@@ -1,5 +1,4 @@
 import { createSlice, PayloadAction } from '@reduxjs/toolkit';
-import { setUserAnswer } from './quiz-slice';
 
 interface ModalState {
     show: boolean;
