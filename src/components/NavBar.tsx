@@ -1,6 +1,7 @@
 import { ReactElement } from "react";
 import { Nav, Navbar, NavLink, Container } from "react-bootstrap";
 import { useDispatch } from "react-redux";
+import { showModal } from "../features/modal-slice";
 import { restartQuiz } from "../features/quiz-slice";
 
 export default function NavBar(): ReactElement {
@@ -18,6 +19,9 @@ export default function NavBar(): ReactElement {
           <Nav className="justify-content-end flex-grow-1 pe-3">
             <NavLink onClick={() => dispatch(restartQuiz())}>
               Restart Quiz
+            </NavLink>
+            <NavLink onClick={() => dispatch(showModal({ show: true }))}>
+              Jump to Question
             </NavLink>
           </Nav>
         </Navbar.Collapse>
