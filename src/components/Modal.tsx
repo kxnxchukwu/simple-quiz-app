@@ -29,7 +29,7 @@ export default function JumpToQuestionModal(): ReactElement {
             <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
               <Form.Label>Question Number</Form.Label>
               <Form.Control
-                type="text"
+                type="number"
                 value={questionNumber}
                 autoFocus
                 onChange={(event) =>
