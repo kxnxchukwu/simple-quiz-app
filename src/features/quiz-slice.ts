@@ -32,11 +32,11 @@ export const quizSlice = createSlice({
             const currentQuestionState = current(state.questions)
             state.selectedOption = index
             if (state.userAnswers[questionId]) {
-                if (currentQuestionState[questionId].isMultiChoice) {
+                /* if (currentQuestionState[questionId].isMultiChoice) {
                     state.userAnswers[questionId] = [...state.userAnswers[questionId], optionId];
-                } else {
-                    state.userAnswers[questionId] = [optionId];
-                }
+                } else { */
+                state.userAnswers[questionId] = [optionId];
+                //}
             } else {
                 state.userAnswers[questionId] = [optionId];
             }
@@ -53,6 +53,24 @@ export const quizSlice = createSlice({
             state.currentQuestionIndex++;
             state.selectedOption = 0
         },
+        jumptoQuestion: (state, action: PayloadAction<{ questionNumber: number }>) => {
+            const questionNumber = action.payload.questionNumber
+            const isQuestionNumberFromUserLarger = questionNumber > state.questions.length
+            if (isQuestionNumberFromUserLarger) {
+                state.currentQuestionIndex = state.questions.length - 1
+                state.selectedOption = 0
+                return state
+            }
+            if (questionNumber === 0) {
+                state.currentQuestionIndex = 1
+                state.selectedOption = 0
+                return state
+            }
+            state.currentQuestionIndex = questionNumber - 1;
+            state.selectedOption = 0
+
+
+        },
         restartQuiz: (state) => {
             state.currentQuestionIndex = 0;
             state.userAnswers = {};
@@ -68,6 +86,6 @@ export const quizSlice = createSlice({
     }
 });
 
-export const { setQuestions, setUserAnswer, prevQuestion, nextQuestion, restartQuiz, endQuiz } = quizSlice.actions;
+export const { setQuestions, setUserAnswer, prevQuestion, nextQuestion, restartQuiz, endQuiz, jumptoQuestion } = quizSlice.actions;
 
 export default quizSlice.reducer;
