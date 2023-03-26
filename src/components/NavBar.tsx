@@ -10,7 +10,7 @@ export default function NavBar(): ReactElement {
   return (
     <Navbar collapseOnSelect expand="sm" bg="light" variant="light">
       <Container fluid>
-        <Navbar.Brand href="#">ACAMS Prep</Navbar.Brand>
+        <Navbar.Brand href="/">ACAMS Prep</Navbar.Brand>
         <Navbar.Toggle
           aria-controls="navbarScroll"
           data-bs-target="#navbarScroll"

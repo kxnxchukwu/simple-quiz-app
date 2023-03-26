@@ -40,10 +40,13 @@ export default function JumpToQuestionModal(): ReactElement {
           </Form>
         </Modal.Body>
         <Modal.Footer>
-          <Button variant="secondary" onClick={handleClose}>
+          <Button variant="outline-secondary" onClick={handleClose}>
             Close
           </Button>
-          <Button variant="primary" onClick={() => handleSave(questionNumber)}>
+          <Button
+            variant="outline-success"
+            onClick={() => handleSave(questionNumber)}
+          >
             Goto Question
           </Button>
         </Modal.Footer>
