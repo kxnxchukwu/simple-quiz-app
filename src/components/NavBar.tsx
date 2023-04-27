@@ -3,6 +3,8 @@ import { Nav, Navbar, NavLink, Container } from "react-bootstrap";
 import { useDispatch } from "react-redux";
 import { showModal } from "../features/modal-slice";
 import { restartQuiz } from "../features/quiz-slice";
+import { ReactComponent as ACAMSLogo } from "../assets/favicon.svg";
+import Timer from "./Timer";
 
 export default function NavBar(): ReactElement {
   const dispatch = useDispatch();
@@ -10,7 +12,12 @@ export default function NavBar(): ReactElement {
   return (
     <Navbar collapseOnSelect expand="sm" bg="light" variant="light">
       <Container fluid>
-        <Navbar.Brand href="/">ACAMS Prep</Navbar.Brand>
+        <div className="row d-flex align-items-center justify-content-between">
+          <Navbar.Brand className="col" href="/">
+            <ACAMSLogo />
+          </Navbar.Brand>
+          <Timer />
+        </div>
         <Navbar.Toggle
           aria-controls="navbarScroll"
           data-bs-target="#navbarScroll"
