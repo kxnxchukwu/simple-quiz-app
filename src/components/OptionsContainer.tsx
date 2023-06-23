@@ -47,11 +47,6 @@ export default function OptionContainer({
     handleOptionClick(option);
   };
 
-  console.log(
-    document.getElementById(
-      `question-${questionId}-optionContainer-${index}-option-${option.id}`
-    )
-  );
   const className = () => {
     if (
       isResults &&
