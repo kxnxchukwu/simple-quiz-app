@@ -29,12 +29,12 @@ export default function Questions({
 
   return (
     <div
-      className={`questionContainer card border-0 mt-2 p-2 mx-auto ${
+      className={`questionContainer card border-0 mt-1 p-2 mx-auto ${
         className ? "" : "container"
       }`}
     >
       <h4 className="question">{question}</h4>
-      <div className="optionContainer mb-4 row col-12">
+      <div className="optionContainer mb-5 row col-12">
         {shuffledOptions.map((option, index) => (
           <OptionContainer
             key={`question-${id}-index-${index}-option-${option.id}`}

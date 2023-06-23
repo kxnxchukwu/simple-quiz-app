@@ -81,7 +81,7 @@ export default function ActionButtons({ id }: ActionButtonProps): ReactElement {
         );
       default:
         return (
-          <div className="actionButtonsContainer mt-4">
+          <div className="actionButtonsContainer mt-5">
             <Button
               variant="outline-success"
               className="float-start"
