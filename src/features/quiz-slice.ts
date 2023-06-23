@@ -1,4 +1,4 @@
-import { createSlice, PayloadAction } from "@reduxjs/toolkit";
+import { createSlice, PayloadAction, current } from "@reduxjs/toolkit";
 import data from "../api/data.json";
 
 interface QuizState {
@@ -33,25 +33,46 @@ export const quizSlice = createSlice({
       action: PayloadAction<{
         option: QuizOption;
         questionId: number;
-        index: number;
       }>
     ) => {
-      const { questionId, option, index } = action.payload;
+      const { questionId, option } = action.payload;
       const { id: optionId, isCorrect } = option;
-      //const currentQuestionState = current(state.questions)
-      state.selectedOption = index;
-      if (state.userAnswers[questionId]) {
-        /* if (currentQuestionState[questionId].isMultiChoice) {
-                    state.userAnswers[questionId] = [...state.userAnswers[questionId], optionId];
-                } else { */
-        state.userAnswers[questionId] = [optionId];
-        //}
+      const currentQuestionState = current(state.questions);
+
+      if (currentQuestionState[questionId - 1].isMultiChoice) {
+        if (state.userAnswers[questionId]) {
+          // User has answered this multiple-choice question before
+          if (state.userAnswers[questionId].includes(optionId)) {
+            // Selected option already exists in user answers, remove it
+            state.userAnswers[questionId] = state.userAnswers[
+              questionId
+            ].filter((answer) => answer !== optionId);
+          } else {
+            // Add the selected option to user answers
+            state.userAnswers[questionId].push(optionId);
+          }
+        } else {
+          // User answers this multiple-choice question for the first time
+          state.userAnswers[questionId] = [optionId];
+        }
       } else {
+        // Single-choice question
         state.userAnswers[questionId] = [optionId];
       }
 
-      if (isCorrect) {
-        state.score += 1;
+      // Check if the selected options are correct for a multiple-choice question
+      if (
+        currentQuestionState[questionId - 1].isMultiChoice &&
+        state.userAnswers[questionId].some(
+          (answer) =>
+            !currentQuestionState[questionId - 1].options.find(
+              (option) => option.id === answer && option.isCorrect
+            )
+        )
+      ) {
+        state.score += 0; // At least one wrong option, add zero points to the score
+      } else if (isCorrect) {
+        state.score += 1; // Correct single-choice question or all options are correct for multiple-choice question
       }
     },
     prevQuestion: (state) => {

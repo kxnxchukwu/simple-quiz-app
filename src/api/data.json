@@ -301,31 +301,31 @@
     },
     {
       "id": 14,
-      "question": "What is the largest country in the world by land area?",
+      "question": "What are two legal risks of having inadequate privacy policies and procedures? (Choose two.)",
       "options": [
         {
           "id": 1,
-          "label": "Provide all information requested to support the investigation",
+          "label": "Diminished reputation",
           "isCorrect": false
         },
         {
           "id": 2,
-          "label": "Provide all information requested to support the investigation",
-          "isCorrect": false
+          "label": "Industry of regulatory sanctions.",
+          "isCorrect": true
         },
         {
           "id": 3,
-          "label": "Ensure the information is necessary to the investigation before responding to the request",
+          "label": "Charges of deceptive business practices.",
           "isCorrect": true
         },
         {
           "id": 4,
-          "label": "Contact the customer informing the person of the investigation to ensure the bank provides information",
+          "label": "Higher marketing and public relations costs",
           "isCorrect": false
         }
       ],
-      "explanation": "The Answer is - Ensure the information is necessary to the investigation before responding to the request.",
-      "isMultiChoice": false
+      "explanation": "",
+      "isMultiChoice": true
     },
     {
       "id": 15,
@@ -629,6 +629,986 @@
         }
       ],
       "explanation": "The Answer is - To safeguard the financial system from illicit use and combat money laundering and promote national security. Reference: https://egmontgroup.org/en",
+      "isMultiChoice": false
+    },
+    {
+      "id": 26,
+      "question": "A bank account is established for a new business customer. The business was established five years ago with an address in another state. The business website contains few details other than stating it is a real estate business. One principal has an international telephone number and appears to be living in another country. The other principal works out of a recreational vehicle. What warrants enhanced due diligence in this scenario?",
+      "options": [
+        {
+          "id": 1,
+          "label": "Shell company",
+          "isCorrect": true
+        },
+        {
+          "id": 2,
+          "label": "Human trafficker",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "label": "Politically exposed person",
+          "isCorrect": false
+        },
+        {
+          "id": 4,
+          "label": "Money laundering through real estate",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "",
+      "isMultiChoice": false
+    },
+    {
+      "id": 27,
+      "question": "A branch manager for a small community bank has a new customer who deposits four €50,000 checks into one account. Shortly thereafter, the customer goes to another branch and asks to transfer all but €1,500 to three accounts in different foreign jurisdictions. Which suspicious activity should be the focus of the suspicious transaction report?",
+      "options": [
+        {
+          "id": 1,
+          "label": "The customer opened the account with four large checks.",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "label": "The customer goes to a different branch to make this transaction.",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "label": "The customer transfers almost all of the funds out of the account",
+          "isCorrect": false
+        },
+        {
+          "id": 4,
+          "label": "The customer asks to transfer funds to accounts in three different foreign jurisdictions",
+          "isCorrect": true
+        }
+      ],
+      "explanation": "",
+      "isMultiChoice": false
+    },
+    {
+      "id": 28,
+      "question": "A government has instituted new anti-money laundering laws which require all financial institutions to obtain certain information from its customers. Which step should an institution located in this jurisdiction take to ensure compliance?",
+      "options": [
+        {
+          "id": 1,
+          "label": "Change procedures to require that the necessary information is obtained",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "label": "Change procedures and systems as necessary and provide employee training",
+          "isCorrect": true
+        },
+        {
+          "id": 3,
+          "label": "Send a notice to customers asking them to provide the necessary information",
+          "isCorrect": false
+        },
+        {
+          "id": 4,
+          "label": "Change systems to ensure the required information is automatically obtained from all customers",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "",
+      "isMultiChoice": false
+    },
+    {
+      "id": 29,
+      "question": "An anti-money laundering audit identifies a significant weakness in how transaction monitoring alerts are cleared. Audit sampling identified potentially suspicious activity that was cleared as not suspicious. Management accepts the audit finding and develops a remediation plan. What is the role of the auditor during the correction phase?",
+      "options": [
+        {
+          "id": 1,
+          "label": "Directing the remediation of the deficiency in a timely manner.",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "label": "Developing procedures to provide sufficient risk-based documentation for clearing alerts.",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "label": "Providing training to the alert clearing department on the importance of effective alert clearing.",
+          "isCorrect": false
+        },
+        {
+          "id": 4,
+          "label": "Validating the successful remediation of the issue once management indicates the issue is resolved.",
+          "isCorrect": true
+        }
+      ],
+      "explanation": "",
+      "isMultiChoice": false
+    },
+    {
+      "id": 30,
+      "question": "Which method to launder money through deposit-taking institutions is closely associated with international trade?",
+      "options": [
+        {
+          "id": 1,
+          "label": "Forming a shell company.",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "label": "Using Black Market Peso Exchange",
+          "isCorrect": true
+        },
+        {
+          "id": 3,
+          "label": "Structuring cash deposits/withdrawals",
+          "isCorrect": false
+        },
+        {
+          "id": 4,
+          "label": "Investing in legitimate businesses with illicit funds",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "",
+      "isMultiChoice": false
+    },
+    {
+      "id": 31,
+      "question": "A customer opens a corporate account with a broker-dealer on behalf of several beneficial owners, with a stated long-term investment goal. The customer deposits $25.5 million into the account and three days later transfers $5 million to an overseas bank. Shortly thereafter, the customer begins making numerous purchases of pesos. The compliance officer receives a query regarding the movement of funds. Within a month of account opening, the customer depletes the account. Which two red flags should prompt the firm's compliance officer to take action? (Choose two.)",
+      "options": [
+        {
+          "id": 1,
+          "label": "The new account deposit is $25.5 million.",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "label": "A corporate account is opened on behalf of several beneficial owners.",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "label": "The compliance officer receives the query regarding the movement of funds.",
+          "isCorrect": true
+        },
+        {
+          "id": 4,
+          "label": "The customer's stated investment goal is not reflective of account activity.",
+          "isCorrect": true
+        }
+      ],
+      "explanation": "",
+      "isMultiChoice": true
+    },
+    {
+      "id": 32,
+      "question": "What should countries do to help prevent non-profit organizations from being abused for the financing of terrorism according to the Financial Action Task Force 40, Recommendations?",
+      "options": [
+        {
+          "id": 1,
+          "label": "Allow for freezing assets of non-profit organizations.",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "label": "Require all non-profit organizations to register with the country's financial intelligence unit.",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "label": "Ensure non-profit organizations cannot be used to conceal or obscure the diversion of funds intended for legitimate purposes to terrorists' organizations.",
+          "isCorrect": true
+        },
+        {
+          "id": 4,
+          "label": "Create laws that forbid non-profit organizations from completing cross-border transactions without first running them through known terrorist databases.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "",
+      "isMultiChoice": false
+    },
+    {
+      "id": 33,
+      "question": "An employee hears a colleague on the telephone with a customer giving advice on how to ensure that a suspicious transaction report will not be filed as a result of a future transaction. What action should the employee take?",
+      "options": [
+        {
+          "id": 1,
+          "label": "Report the conversation to the local police.",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "label": "Report the conversation to the compliance officer.",
+          "isCorrect": true
+        },
+        {
+          "id": 3,
+          "label": "Tell the colleague that it is against policy to give such advice",
+          "isCorrect": false
+        },
+        {
+          "id": 4,
+          "label": "Ignore the situation because the colleague is the relationship manager for that customer",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "",
+      "isMultiChoice": false
+    },
+    {
+      "id": 34,
+      "question": "The USA PATRIOT Act requires United States (U.S.) financial institutions to collect certain information from non-U.S. banks that hold a correspondent account. Which two pieces of information must a non-U.S. bank provide to its U.S. correspondent to enable them to comply with this requirement? (Choose two.)",
+      "options": [
+        {
+          "id": 1,
+          "label": "The name and address of all shell banks the bank maintains accounts for",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "label": "The name and address of all beneficial owners who own 25% or more of the bank",
+          "isCorrect": true
+        },
+        {
+          "id": 3,
+          "label": "Prompt notice of any suspicious activity it detects on any customer who uses the correspondent account",
+          "isCorrect": false
+        },
+        {
+          "id": 4,
+          "label": "The name and address of a U.S. person who is authorized to receive service of legal process for the bank.",
+          "isCorrect": true
+        }
+      ],
+      "explanation": "",
+      "isMultiChoice": true
+    },
+    {
+      "id": 35,
+      "question": "The vice president of the foreign correspondent banking department at a large United States bank has been notified that a foreign bank with an offshore license wants to open a correspondent account. Which two things must the vice president acquire under the USA PATRIOT Act? (Choose two.)",
+      "options": [
+        {
+          "id": 1,
+          "label": "A list of all the customers of the correspondent bank",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "label": "A list of the types of businesses served by the correspondent bank",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "label": "Information relating to the foreign bank's anti-money laundering program.",
+          "isCorrect": true
+        },
+        {
+          "id": 4,
+          "label": "The identity of 10% owners of the correspondent bank unless it is publicly traded",
+          "isCorrect": true
+        }
+      ],
+      "explanation": "",
+      "isMultiChoice": true
+    },
+    {
+      "id": 36,
+      "question": "What is an example of the integration stage of money laundering involving a bank or another deposit-taking institution?",
+      "options": [
+        {
+          "id": 1,
+          "label": "Depositing illicit funds into an account set up for a front company.",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "label": "Directing third parties to exchange illicit cash for negotiable instruments.",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "label": "Wiring illicit funds from an account at one bank to an account at another bank.",
+          "isCorrect": false
+        },
+        {
+          "id": 4,
+          "label": "Using illicit funds that had previously been deposited to purchase a luxury vehicle.",
+          "isCorrect": true
+        }
+      ],
+      "explanation": "",
+      "isMultiChoice": false
+    },
+    {
+      "id": 37,
+      "question": "Which aspect of the USA PATRIOT Act impacts foreign financial institutions?",
+      "options": [
+        {
+          "id": 1,
+          "label": "Requiring enhanced due diligence for foreign shell banks.",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "label": "Expanding sanctions requirements to a U.S. financial institution’s foreign branch.",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "label": "Expanding the anti-money laundering program requirements to all foreign financial institutions.",
+          "isCorrect": false
+        },
+        {
+          "id": 4,
+          "label": "Providing authority to impose special measures on institutions that are of primary money-laundering concern.",
+          "isCorrect": true
+        }
+      ],
+      "explanation": "",
+      "isMultiChoice": false
+    },
+    {
+      "id": 38,
+      "question": "The compliance officer at a crowdfunding website is in charge of monitoring new crowdfunding projects. Recently, the number of crowdfunding projects has significantly increased. Which red flag indicates the highest anti-money laundering risk?",
+      "options": [
+        {
+          "id": 1,
+          "label": "Those with the largest number of donors",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "label": "Projects that get funding within days of their start",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "label": "Projects with the highest monetary success threshold",
+          "isCorrect": false
+        },
+        {
+          "id": 4,
+          "label": "Projects that start and close and are fully funded within a very short period.",
+          "isCorrect": true
+        }
+      ],
+      "explanation": "",
+      "isMultiChoice": false
+    },
+    {
+      "id": 39,
+      "question": "Which two statements in the Wolfsberg Group's `Suppression of the Financing of Terrorism` define the role financial institutions should play in the fight against terrorism? (Choose two.)",
+      "options": [
+        {
+          "id": 1,
+          "label": "Financial institutions need to assist competent authorities in fighting terrorist financing through prevention, detection and information sharing.",
+          "isCorrect": true
+        },
+        {
+          "id": 2,
+          "label": "Financial institutions need to continuously analyze the types of activity related to terrorist financing and develop models that in the long term will drive down terrorism.",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "label": "Financial institutions should have financial intelligence units dedicated to the investigation of activity that would lead to the detection of terrorist financing as a means to decrease global terrorism.",
+          "isCorrect": false
+        },
+        {
+          "id": 4,
+          "label": "Financial institutions should apply extra due diligence whenever they see suspicious or irregular activities, especially when customers are engaged in sectors or activities that have been identified by competent authorities as being used for the financing of terrorism.",
+          "isCorrect": true
+        }
+      ],
+      "explanation": "",
+      "isMultiChoice": true
+    },
+    {
+      "id": 40,
+      "question": "What is the appropriate compliance control for identifying politically exposed persons (PEPs) according to the Basel Committee's paper on Customer Due? Diligence for Banks?",
+      "options": [
+        {
+          "id": 1,
+          "label": "Determining that a local figure is a PEP.",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "label": "Reviewing when a relationship is established.",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "label": "Reviewing relationships at account opening and on a periodic basis.",
+          "isCorrect": true
+        },
+        {
+          "id": 4,
+          "label": "Requiring that the customer discloses that they are a PEP or an associate of a PEP.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "",
+      "isMultiChoice": false
+    },
+    {
+      "id": 41,
+      "question": "What are two sources for maintaining up-to-date sanctions information? (Choose two.)",
+      "options": [
+        {
+          "id": 1,
+          "label": "U.S. Federal Bureau of Investigation's National Security Letters",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "label": "U.S. Department of the Treasury Office of Foreign Assets Control",
+          "isCorrect": true
+        },
+        {
+          "id": 3,
+          "label": "U.S. Department of the Treasury “Section 311” Special Measures",
+          "isCorrect": true
+        },
+        {
+          "id": 4,
+          "label": "Financial Action Task Force's list of High Risk and Non-Cooperative Jurisdictions",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "",
+      "isMultiChoice": true
+    },
+    {
+      "id": 42,
+      "question": "A bank has maintained an account for a European charity for several years. The charity provides clothing to persons in need in various countries with active terrorists' cells. Which action by the charity indicates possible terrorist financing?",
+      "options": [
+        {
+          "id": 1,
+          "label": "The charity frequently withdraws cash from the bank.",
+          "isCorrect": true
+        },
+        {
+          "id": 2,
+          "label": "The charity has branch locations located in various countries.",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "label": "The charity receives cash donations primarily from European countries.",
+          "isCorrect": false
+        },
+        {
+          "id": 4,
+          "label": "The charity maintains a bank account for non-business-related expenses.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "",
+      "isMultiChoice": false
+    },
+    {
+      "id": 43,
+      "question": "A politically exposed person (PEP) maintains an account at a bank. Last month a money laundering analyst filed a suspicious transaction report about unusual wire deposits originated by unknown individuals in the home country of the official. Recently a negative news search revealed political corruption in the home country of the official. To whom should this situation be escalated?",
+      "options": [
+        {
+          "id": 1,
+          "label": "The board of directors",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "label": "The line of business executive",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "label": "The bank's anti-money laundering officer",
+          "isCorrect": true
+        },
+        {
+          "id": 4,
+          "label": "The Financial Action Task Force's PEP Hotline",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "",
+      "isMultiChoice": false
+    },
+    {
+      "id": 44,
+      "question": "Which two individuals are ordinarily beneficial owners of a private banking account according to the Wolfsberg Anti-Money Laundering Principles for Private Banking? (Choose two.)",
+      "options": [
+        {
+          "id": 1,
+          "label": "Those who are authorized signers on the account.",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "label": "Those who have legal title to a controlling share interest in the customer.",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "label": "Those who generally have ultimate control through ownership or other means over the funds in the account.",
+          "isCorrect": true
+        },
+        {
+          "id": 4,
+          "label": "Those who are the ultimate source of funds for the account and whose source of wealth should be subject to due diligence.",
+          "isCorrect": true
+        }
+      ],
+      "explanation": "",
+      "isMultiChoice": true
+    },
+    {
+      "id": 45,
+      "question": "What are two requirements for monitoring and reporting suspicious activity for correspondent banking according to the Wolfsberg Principles? (Choose two.)",
+      "options": [
+        {
+          "id": 1,
+          "label": "Incorporate suspicious activity monitoring into periodic reviews.",
+          "isCorrect": true
+        },
+        {
+          "id": 2,
+          "label": "Incorporate due diligence results such as customer risk ratings.",
+          "isCorrect": true
+        },
+        {
+          "id": 3,
+          "label": "Utilize downstream correspondents to investigate and report suspicious activity.",
+          "isCorrect": false
+        },
+        {
+          "id": 4,
+          "label": "Investigate and report suspicious activity only for the correspondent bank's clients.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "",
+      "isMultiChoice": true
+    },
+    {
+      "id": 46,
+      "question": "When should the anti-money laundering risk assessment be updated?",
+      "options": [
+        {
+          "id": 1,
+          "label": "Every two years",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "label": "After a merger or acquisition",
+          "isCorrect": true
+        },
+        {
+          "id": 3,
+          "label": "When the board of directors’ changes",
+          "isCorrect": false
+        },
+        {
+          "id": 4,
+          "label": "When instructed to by the Financial Action Task Force",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "",
+      "isMultiChoice": false
+    },
+    {
+      "id": 47,
+      "question": "A customer brings $15,000 worth of chips into a casino and plays various games. The customer redeems all the remaining chips and requests a wire transfer of the proceeds to an unrelated third party. What are two red flags that indicate money laundering? (Choose two.)",
+      "options": [
+        {
+          "id": 1,
+          "label": "Customer redeeming all remaining chips.",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "label": "Playing various games before cashing out.",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "label": "Bringing $15,000 worth of chips into the casino.",
+          "isCorrect": true
+        },
+        {
+          "id": 4,
+          "label": "Requesting a wire transfer to an unrelated third party.",
+          "isCorrect": true
+        }
+      ],
+      "explanation": "",
+      "isMultiChoice": true
+    },
+    {
+      "id": 48,
+      "question": "A United States (U.S.) bank was recently alerted by law enforcement of an increase in sale of large denomination U.S. bank notes to casas de Cambio. They suspect that a Mexican syndicate is operating a money laundering scheme in the bank's jurisdiction. Which two steps should be taken to trace funds through the bank to assist law enforcement in their investigation? (Choose two.)",
+      "options": [
+        {
+          "id": 1,
+          "label": "Identify the money laundering scheme and submit a suspicious transaction report.",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "label": "Identify if there is a decrease in the sale of large denomination U.S. bank notes to casas de Cambio by the bank.",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "label": "Identify deposits by casas de Cambio that include third-party items including sequentially numbered monetary instruments.",
+          "isCorrect": true
+        },
+        {
+          "id": 4,
+          "label": "Identify multiple wire transfers initiated by casas de Cambio to jurisdictions outside of Mexico that bear no apparent business relationship with that casa de Cambio.",
+          "isCorrect": true
+        }
+      ],
+      "explanation": "",
+      "isMultiChoice": true
+    },
+    {
+      "id": 49,
+      "question": "Which two factors assist a money laundering investigation that involves multiple countries? (Choose two.)",
+      "options": [
+        {
+          "id": 1,
+          "label": "Law enforcement and other authorities should have access to financial information that is pertinent to the investigation.",
+          "isCorrect": true
+        },
+        {
+          "id": 2,
+          "label": "Every country should share all their information with foreign law enforcement and government authorities to facilitate rapid investigations.",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "label": "Law enforcement and other authorities should be allowed to establish and utilize joint investigative teams with law enforcement in other countries.",
+          "isCorrect": true
+        },
+        {
+          "id": 4,
+          "label": "Law enforcement and other authorities should not expedite information sharing between countries to ensure that all information is provided at the same time to avoid premature conclusions.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "",
+      "isMultiChoice": true
+    },
+    {
+      "id": 50,
+      "question": "A popular restaurant in town has begun depositing less cash than it has in prior years. In a review of the customer's accounts, you notice that credit card receipts have increased with no explanation. The account officer discovers that the restaurant has installed a privately-owned automated teller machine (ATM) onsite and has begun construction of a patio dining area. Which red flag should trigger additional investigation?",
+      "options": [
+        {
+          "id": 1,
+          "label": "Privately-owned ATM",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "label": "Lower cash deposits",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "label": "Increased credit card receipts",
+          "isCorrect": true
+        },
+        {
+          "id": 4,
+          "label": "Construction of the new patio dining area",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "",
+      "isMultiChoice": false
+    },
+    {
+      "id": 51,
+      "question": "An organization's automated surveillance system identifies large fluctuations in customer activity. As a result of an audit, the compliance officer is informed that the system is not generating alerts when activity is consistently abnormal over a long period of time. Currently the organization is evaluating new alert scenarios in an attempt to address this problem. Which type of scenario is helpful in mitigating this weakness?",
+      "options": [
+        {
+          "id": 1,
+          "label": "Peer",
+          "isCorrect": true
+        },
+        {
+          "id": 2,
+          "label": "Income",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "label": "Mapping",
+          "isCorrect": false
+        },
+        {
+          "id": 4,
+          "label": "Below-the-line",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "",
+      "isMultiChoice": false
+    },
+    {
+      "id": 52,
+      "question": "Upon a routine account review a money laundering investigator identified a number of large round dollar wire transfer deposits into a business account owned by a local auto repair shop. The wire transfers all originated from a country that is a known financial secrecy haven with poor anti-money laundering controls. The investigator concludes there appears to be no legitimate business purpose for the wire transfers and files a suspicious transaction report. The owner of the auto repair shop is popular in the community and is a well-known philanthropist. To whom should the investigator escalate these concerns?",
+      "options": [
+        {
+          "id": 1,
+          "label": "Audit committee",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "label": "Chairman of the Board",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "label": "The owner of the auto repair shop",
+          "isCorrect": false
+        },
+        {
+          "id": 4,
+          "label": "The bank anti-money laundering officer",
+          "isCorrect": true
+        }
+      ],
+      "explanation": "",
+      "isMultiChoice": false
+    },
+    {
+      "id": 53,
+      "question": "A compliance officer learns from an Information Technology (IT) source of a potential new financial service being discussed by the new product approval committee. What is the correct next course of action?",
+      "options": [
+        {
+          "id": 1,
+          "label": "Request that the new product approval committee include the compliance officer.",
+          "isCorrect": true
+        },
+        {
+          "id": 2,
+          "label": "Go to the board of directors and try to shut the new service down immediately because the committee did not communicate with the compliance officer.",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "label": "Get as much information as possible from the source so that potential risks can be researched and a report prepared and presented to the head of marketing.",
+          "isCorrect": false
+        },
+        {
+          "id": 4,
+          "label": "Start initial research into potential risks but wait until notified that the service has been approved by the committee before initiating extensive research.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "",
+      "isMultiChoice": false
+    },
+    {
+      "id": 54,
+      "question": "What is the goal of the Egmont Group in providing a forum for Financial Intelligence Units (FIUs) around the world?",
+      "options": [
+        {
+          "id": 1,
+          "label": "To improve international laws to combat money laundering and the financing of terrorism and foster the implementation of domestic programs.",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "label": "To provide a forum for FIUs to improve cooperation in the fight against money laundering and the financing of terrorism and to foster the implementation of domestic programs in this field.",
+          "isCorrect": true
+        },
+        {
+          "id": 3,
+          "label": "To improve communication with law enforcement in the fight against money laundering and the financing of terrorism and to foster the implementation of domestic programs in this field.",
+          "isCorrect": false
+        },
+        {
+          "id": 4,
+          "label": "To improve cooperation with state and federal governments in the fight against money laundering and the financing of terrorism and to foster the implementation of domestic programs in this field.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "",
+      "isMultiChoice": false
+    },
+    {
+      "id": 55,
+      "question": "A compliance officer at an insurance company has been reviewing the transaction activity of several clients. Which transaction is considered a red flag for potential money laundering?",
+      "options": [
+        {
+          "id": 1,
+          "label": "A client paid the quarterly life insurance premium using money orders from two different banks.",
+          "isCorrect": true
+        },
+        {
+          "id": 2,
+          "label": "A client from a high-risk jurisdiction recently purchased property insurance for a real-estate development.",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "label": "A corporation owns several affiliates and recently opened separate group life insurance policies for each of the affiliates.",
+          "isCorrect": false
+        },
+        {
+          "id": 4,
+          "label": "A client established a $100,000 charitable annuity with a non-profit organization that provides health and safety assistance internationally.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "",
+      "isMultiChoice": false
+    },
+    {
+      "id": 56,
+      "question": "The branch manager notices that a number of customers come in weekly and always use the same teller to process their deposits. The manager notices that the customers and the teller, who are from the same ethnic group, are speaking in a foreign language and every once in a while the customers from local ethnic restaurants will bring the teller lunch. The commercial customers that visit the teller generally deposit the same amount of cash each time they come in. How should the branch manager respond to this activity?",
+      "options": [
+        {
+          "id": 1,
+          "label": "Transfer the teller to another branch.",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "label": "Conduct further investigation before taking any other action.",
+          "isCorrect": true
+        },
+        {
+          "id": 3,
+          "label": "Encourage the teller to bring in more business from the ethnic community.",
+          "isCorrect": false
+        },
+        {
+          "id": 4,
+          "label": "Suggest to the teller to send the customers to other tellers to avoid the opportunity for collusion.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "",
+      "isMultiChoice": false
+    },
+    {
+      "id": 57,
+      "question": "A law enforcement official calls a bank inquiring about a customer who is currently under investigation. The law enforcement official requests information about the customer. How should the bank respond?",
+      "options": [
+        {
+          "id": 1,
+          "label": "Confirm the customer is either a current or former customer.",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "label": "Inform the board of directors before responding to the request.",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "label": "Provide the requested information to help aid in the investigation.",
+          "isCorrect": false
+        },
+        {
+          "id": 4,
+          "label": "Request a formal letter be submitted to verify the validity of the request.",
+          "isCorrect": true
+        }
+      ],
+      "explanation": "",
+      "isMultiChoice": false
+    },
+    {
+      "id": 58,
+      "question": "A bank compliance officer has implemented enhanced monitoring rules that have identified some unusual activity that may be indicative of human trafficking. Which red flag should prompt additional transactional review?",
+      "options": [
+        {
+          "id": 1,
+          "label": "Wire transfer activity from countries with significant migrant populations",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "label": "Cash deposits that occur in cities where the customer resides and conducts business.",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "label": "Cash deposits that occur in cities where the customer does not reside or conduct business.",
+          "isCorrect": false
+        },
+        {
+          "id": 4,
+          "label": "Cash deposits that occur in cities where the customer does not reside or conduct business followed by same day withdrawals.",
+          "isCorrect": true
+        }
+      ],
+      "explanation": "",
+      "isMultiChoice": false
+    },
+    {
+      "id": 59,
+      "question": "The compliance officer for a private bank has been tasked with writing a policy on how the bank will deal with intermediaries. Which two aspects should be included in the policy in respect of intermediaries to align it with the Wolfsberg Anti-Money Laundering Principles for Private Banking? (Choose two.)",
+      "options": [
+        {
+          "id": 1,
+          "label": "When an intermediary introduces clients to the bank, it is not necessary for the bank to perform due diligence on the intermediary's clients.",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "label": "Where an intermediary introduces clients to the bank, the bank must obtain the same type of information with respect to an introduced client that would otherwise be obtained by the bank, absent the involvement of the intermediary.",
+          "isCorrect": true
+        },
+        {
+          "id": 3,
+          "label": "Where an intermediary manages assets on behalf of a number of clients and is the account holder with the bank, but that intermediary does not conduct the same level of due diligence as the bank, it is necessary for the bank to undertake due diligence on the intermediary's clients.",
+          "isCorrect": false
+        },
+        {
+          "id": 4,
+          "label": "Where an intermediary manages assets on behalf of a number of clients and arranges for the opening of accounts for its clients with the bank, and that intermediary is a financial institution subject to similar regulations, it is necessary for the bank to perform due diligence on the intermediary's clients.",
+          "isCorrect": true
+        }
+      ],
+      "explanation": "",
+      "isMultiChoice": true
+    },
+    {
+      "id": 60,
+      "question": "A non-U.S. bank wants to open an account at Bank A, which is a U.S.-based bank. Which information must Bank A obtain under the USA PATRIOT Act?",
+      "options": [
+        {
+          "id": 1,
+          "label": "A complete client list from the non-U.S. bank",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "label": "The identity of owners and percentage of ownership of the non-U.S. bank",
+          "isCorrect": true
+        },
+        {
+          "id": 3,
+          "label": "The structure and identity of the management team at the non-U.S. bank",
+          "isCorrect": false
+        },
+        {
+          "id": 4,
+          "label": "The details of the non-U.S. bank's anti-money laundering compliance training program",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "",
       "isMultiChoice": false
     }
   ]

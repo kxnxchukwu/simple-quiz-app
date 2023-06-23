@@ -1,38 +1,46 @@
 import { ReactElement } from "react";
-import { Nav, Navbar, NavLink, Container } from "react-bootstrap";
-import { useDispatch } from "react-redux";
-import { showModal } from "../features/modal-slice";
-import { restartQuiz } from "../features/quiz-slice";
-import { ReactComponent as ACAMSLogo } from "../assets/favicon.svg";
+import { useLocation } from "react-router";
+import { Nav, Navbar, Container } from "react-bootstrap";
 import Timer from "./Timer";
+import { useSelector } from "react-redux";
+import { RootState } from "../store";
 
 export default function NavBar(): ReactElement {
-  const dispatch = useDispatch();
+  const location = useLocation();
+  const score = useSelector((state: RootState) => state.quiz.score);
+  const questionLength: number = useSelector(
+    (state: RootState) => state.quiz.questions.length
+  );
+  const percent = Math.round((score / questionLength) * 100);
 
+  const secondNavBarComponent = () => {
+    switch (location.pathname) {
+      case "/results":
+        return (
+          <div className="d-grid gap-2 d-md-flex justify-content-md-end">
+            <button className="btn btn-success" type="button">
+              {`${percent}%`}
+            </button>
+          </div>
+        );
+      default:
+        return (
+          <Container className="d-flex flex-row bd-highlight">
+            <Timer />
+          </Container>
+        );
+    }
+  };
   return (
-    <Navbar collapseOnSelect expand="sm" bg="light" variant="light">
-      <Container fluid>
-        <div className="row d-flex align-items-center justify-content-between">
-          <Navbar.Brand className="col" href="/">
-            <ACAMSLogo />
-          </Navbar.Brand>
-          <Timer />
-        </div>
-        <Navbar.Toggle
-          aria-controls="navbarScroll"
-          data-bs-target="#navbarScroll"
-        />
-        <Navbar.Collapse id="navbarScroll">
-          <Nav className="justify-content-end flex-grow-1 pe-3">
-            <NavLink onClick={() => dispatch(restartQuiz())}>
-              Restart Quiz
-            </NavLink>
-            <NavLink onClick={() => dispatch(showModal({ show: true }))}>
-              Jump to Question
-            </NavLink>
-          </Nav>
-        </Navbar.Collapse>
-      </Container>
+    <Navbar
+      className="d-flex justify-content-around sticky-top"
+      collapseOnSelect
+      expand="sm"
+      bg="light"
+      variant="light"
+    >
+      <Navbar.Brand href="/">ACAMSPrep</Navbar.Brand>
+      <Nav className="">{secondNavBarComponent()}</Nav>
     </Navbar>
   );
 }

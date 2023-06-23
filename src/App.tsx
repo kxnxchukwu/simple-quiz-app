@@ -1,16 +1,14 @@
 import "./App.css";
 import { Quiz } from "./components/Quiz";
 import "bootstrap/dist/css/bootstrap.min.css";
-import NavBar from "./components/NavBar";
-import JumpToQuestionModal from "./components/Modal";
+import Progress from "./components/Progress";
 
 function App() {
   return (
-    <div className="m-1 p-1">
-      <NavBar />
+    <>
+      <Progress />
       <Quiz />
-      <JumpToQuestionModal />
-    </div>
+    </>
   );
 }
 

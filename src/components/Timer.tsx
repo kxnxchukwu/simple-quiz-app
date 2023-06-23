@@ -1,8 +1,9 @@
 import { ReactElement, useEffect } from "react";
-import { getTimeLeftInHMS, getTimeTextStyle } from "../utils/TimeUlils";
+import { getTimeLeftInHMS } from "../utils/TimeUlils";
 import { useDispatch, useSelector } from "react-redux";
 import { setTimeLeft } from "../features/quiz-slice";
 import { RootState } from "../store";
+import Digit from "./Digit";
 
 export default function Timer(): ReactElement {
   const timeLeft = useSelector((state: RootState) => state.quiz.timeLeft);
@@ -26,11 +27,10 @@ export default function Timer(): ReactElement {
   });
 
   return (
-    <p className={`${getTimeTextStyle(timeLeft)} col`}>
-      {" "}
-      {`${hours.toString().padStart(2, "0")}:${minutes
-        .toString()
-        .padStart(2, "0")}:${secs.toString().padStart(2, "0")}`}
-    </p>
+    <>
+      <Digit value={hours} />
+      <Digit value={minutes} />
+      <Digit value={secs} />
+    </>
   );
 }
