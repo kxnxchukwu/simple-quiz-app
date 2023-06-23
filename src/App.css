@@ -1,22 +1,145 @@
-.App {
-  text-align: center;
-}
+@media only screen and (max-width: 768px) {
+  .radio {
+    /* Auto layout */
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-float infinite 3s ease-in-out;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 13px;
+
+    width: 326px;
+    height: 44px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+  }
+
+  .questionContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5px;
+    gap: 8px;
+
+    position: absolute;
+    width: 345px;
+    height: 425px;
+    left: 15px;
+    right: 10px;
+    top: 60px;
+  }
+
+  .question {
+    box-sizing: border-box;
+
+    font-family: "Nunito";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 20px;
+
+    color: #101011;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+  }
+
+  .optionContainer {
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 4px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+  }
+
+  .option {
+    /* Frame 1010106138 */
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px 8px;
+    gap: 8px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+
+  .actionButtonsContainer {
+    /* Frame 1010106143 */
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 147px;
+
+    position: absolute;
+    width: 342px;
+    height: 46px;
+    top: 665px;
   }
 }
 
-.App-header {
-  min-height: 100vh;
+.gridItem {
+  /* Auto layout */
+
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  padding: 0px;
+  gap: 8px;
+
+  position: absolute;
+  width: 342px;
+  height: 425px;
+  right: 25px;
+  bottom: 303px;
+
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 
-body {
-  height: 100vh;
+.grid-container {
+  display: grid;
+  gap: 100px;
+  justify-content: center;
+  align-items: center;
+}
+
+.grid-item {
+  grid-column-start: 1;
+  grid-column-end: 1;
+}
+
+.singleButton {
+  height: 46px;
+  width: 342px;
+  left: 24px;
+  top: 35.5px;
+  border-radius: 8px;
+  padding: 12px 16px 12px 16px;
 }
