@@ -29,9 +29,11 @@
     position: absolute;
     width: 345px;
     height: 425px;
+    max-height: 500px;
     left: 15px;
     right: 10px;
     top: 50px;
+    overflow-x: scroll;
   }
 
   .question {
