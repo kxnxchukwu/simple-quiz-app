@@ -7,9 +7,16 @@ html {
   box-sizing: inherit;
 }
 
-body {
-  padding: 0;
-  margin: 0;
+html,
+body,
+#root {
+  width: 100%;
+  /* To smooth any scrolling behavior */
+  -webkit-overflow-scrolling: touch;
+  padding: 0px;
+  margin: 0px;
+  /* Allows content to fill the viewport and go beyond the bottom */
+  min-height: 100%;
 }
 
 @media only screen and (max-width: 768px) {
@@ -74,7 +81,7 @@ body {
     align-items: flex-start;
     padding: 0px;
     margin-bottom: 15px;
-    gap: 4px;
+    gap: 0.25rem;
 
     /* Inside auto layout */
 
