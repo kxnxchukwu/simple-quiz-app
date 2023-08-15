@@ -17,6 +17,8 @@ body,
   margin: 0px;
   /* Allows content to fill the viewport and go beyond the bottom */
   min-height: 100%;
+  justify-content: center;
+  align-items: center;
 }
 
 @media only screen and (max-width: 768px) {
@@ -43,7 +45,6 @@ body,
   .questionContainer {
     display: flex;
     flex-direction: column;
-    align-items: center;
     padding: 5px;
     gap: 8px;
 
@@ -52,7 +53,7 @@ body,
     height: 450px;
     left: 15px;
     right: 10px;
-    top: 50px;
+    top: 25px;
   }
 
   .question {
@@ -88,9 +89,7 @@ body,
     flex: none;
     order: 1;
     flex-grow: 0;
-    max-height: 500px;
-    overflow-x: hidden;
-    overflow-y: auto;
+    min-height: 480px;
   }
 
   .option {
@@ -109,8 +108,6 @@ body,
     flex: none;
     order: 0;
     flex-grow: 0;
-    max-height: 200px; /* Set a maximum height for each option */
-    overflow-y: auto;
   }
 
   .actionButtonsContainer {
@@ -120,15 +117,13 @@ body,
 
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    align-items: flex-start;
+    justify-content: space-around;
+    align-items: flex-end;
     padding: 0px;
     margin-bottom: 15px;
     gap: 147px;
-    position: absolute;
     width: 342px;
     height: 46px;
-    top: 680px;
   }
 }
 

@@ -15,7 +15,7 @@ export default function Progress(): ReactElement {
 
   const isLastQuestion = currentQuestionIndex === total - 1;
   return (
-    <Container className="mx-auto mt-5 d-flex justify-content-center align-items-center row">
+    <Container className="mx-auto mt-3 d-flex justify-content-center align-items-center row">
       <div className="col-10">
         <ProgressBar variant="success" now={!isLastQuestion ? now : 100} />
       </div>

@@ -28,30 +28,32 @@ export default function Questions({
   const shuffledOptions = useMemo(() => shuffleArray(options), [options]);
 
   return (
-    <div
-      className={`questionContainer card border-0 mt-1 p-2 mx-auto ${
-        className ? "" : "container"
-      }`}
-    >
-      <h4 className="question">{question}</h4>
-      <div className="optionContainer mb-5 row col-12">
-        {shuffledOptions.map((option, index) => (
-          <OptionContainer
-            key={`question-${id}-index-${index}-option-${option.id}`}
-            onChangeValue={onChangeValue}
-            userOption={userOption}
-            isQuizOver={isQuizOver}
-            type={isMultiChoice}
-            option={option}
-            currentQuestion={currentQuestion}
-            index={index}
-          />
-        ))}
-        {explanation && userAnswers[currentQuestion.id] && (
-          <Explanation explanation={explanation} />
-        )}
+    <>
+      <div
+        className={`questionContainer card border-0 mt-1 p-2 mx-auto ${
+          className ? "" : "container"
+        }`}
+      >
+        <h4 className="question">{question}</h4>
+        <div className="optionContainer mb-5">
+          {shuffledOptions.map((option, index) => (
+            <OptionContainer
+              key={`question-${id}-index-${index}-option-${option.id}`}
+              onChangeValue={onChangeValue}
+              userOption={userOption}
+              isQuizOver={isQuizOver}
+              type={isMultiChoice}
+              option={option}
+              currentQuestion={currentQuestion}
+              index={index}
+            />
+          ))}
+          {explanation && userAnswers[currentQuestion.id] && (
+            <Explanation explanation={explanation} />
+          )}
+        </div>
       </div>
       {className ? <></> : <ActionButtons id={id} />}
-    </div>
+    </>
   );
 }
